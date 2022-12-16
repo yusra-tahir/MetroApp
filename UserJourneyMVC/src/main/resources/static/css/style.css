@@ -1,0 +1,192 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Lato&family=Montserrat:wght@600&family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Vollkorn&display=swap')
+	;
+
+body {
+	background-color: #FFFAF5;
+}
+
+/*Navbar styling */
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-item, .nav-item a {
+	margin: 10px 15px;;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: #000958;
+}
+
+.navbar-brand {
+	font-size: 25px;
+	color: #000958;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+/*End of navbar styling */
+hr {
+	border-top: 1px solid #000;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Raleway', sans-serif;
+	color: #000958;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+
+.brand-name {
+	color: #000958;
+	font-weight: 700;
+}
+
+.hero img {
+	object-position: center; /* Center the image within the element */
+	width: 75%;
+	margin-bottom: 1rem;
+}
+
+.button-box {
+	text-align: left;
+	margin-top: 20px;
+}
+
+/* Start of card styling for about page */
+.card-img {
+	height: 200px;
+	width: auto;
+}
+
+.card {
+	background-color: #FFF6ED;
+	border: none
+}
+/* End of card styling for about page */
+/* Start of credit styling */
+.credit p {
+	font-size: 15px;
+}
+
+.credit a {
+	color: #000958;
+	transition: all ease-in-out 0.3s
+}
+
+.credit a:hover {
+	color: #00a8f4;
+}
+
+/* STYLING FOR LOGIN */
+.login-block {
+	background: #FFF6ED;
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+}
+
+.banner-sec {
+	background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg)
+		no-repeat left bottom;
+	background-size: cover;
+	min-height: 500px;
+	border-radius: 0 10px 10px 0;
+	padding: 0;
+}
+
+#login-container {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+	border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+	text-align: left;
+	left: 5%;
+}
+
+.login-sec {
+	padding: 50px 30px;
+	position: relative;
+}
+
+ */
+.banner-text {
+	width: 70%;
+	position: absolute;
+	bottom: 40px;
+	padding-left: 20px;
+}
+
+.banner-text h2 {
+	color: #fff;
+	font-weight: 600;
+}
+
+.banner-text h2:after {
+	content: " ";
+	width: 100px;
+	height: 5px;
+	background: #FFF;
+	display: block;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+
+.banner-text p {
+	color: #fff;
+}
+
+/* SWIPE STYLING  */
+select {
+	background-color: #1F99CD;
+	background-position: right 10px center;
+	background-repeat: no-repeat;
+	background-size: auto 50%;
+	border-radius: 2px;
+	border: none;
+	color: white;
+	padding: 10px 30px 10px 10px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+input .topup {
+	background-color: #1F99CD;
+	background-position: right 10px center;
+	background-repeat: no-repeat;
+	background-size: auto 50%;
+	border-radius: 2px;
+	border: none;
+	color: white;
+	padding: 10px 30px 10px 10px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+/* End of credit styling */
+@media only screen and (max-width: 966px) {
+	.button-box {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.vetbtn {
+		text-align: center;
+	}
+}
